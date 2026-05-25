@@ -88,5 +88,3 @@ This project is open source and available for educational purposes.
 Thank you for using this learning resource. Happy coding!
 
 ---
-
-Feel free to customize this README further based on the specific structure and content of your repository.
