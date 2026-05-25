@@ -1,0 +1,33 @@
+package com.scaleupindia.example4;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+public class Demo {
+	public static void main(String[] args) {
+		List<Integer> arrayList = new ArrayList<>();
+		List<Integer> linkedList = new LinkedList<>();
+		int numberOfElements = 100000;
+		
+		long startTime1 = System.nanoTime();
+		for (int i = 0; i < numberOfElements; i++) {
+			arrayList.add(i);
+		}
+		
+		long endTime1 = System.nanoTime();
+		long duration1 = (endTime1 = startTime1);
+		System.out.println("Time taken by ArrayList for addition/modififcation of "+ numberOfElements + " elements is "+ duration1 +" nanoseconds");
+		
+		long startTime2 = System.nanoTime();
+		for (int i = 0; i < numberOfElements; i++) {
+			arrayList.add(i);
+		}
+		
+		long endTime2 = System.nanoTime();
+		long duration2 = (endTime2 = startTime2);
+		System.out.println("Time taken by ArrayList for addition/modififcation of "+ numberOfElements + " elements is "+ duration1 +" nanoseconds");
+		
+	}
+
+}

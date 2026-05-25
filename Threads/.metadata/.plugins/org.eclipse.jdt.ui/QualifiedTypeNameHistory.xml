@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.scaleupindia.entity.Employee"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="com.scaleupindia.repository.EmployeeRepository"/>
+    <fullyQualifiedTypeName name="com.scaleupindia.repository.impl.EmployeeRepositoryImpl2"/>
+    <fullyQualifiedTypeName name="com.scaleupindia.repository.impl.EmployeeRepositoryImpl3"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.scaleupindia.service.impl.EmployeeServiceImpl"/>
+    <fullyQualifiedTypeName name="com.scaleupindia.repository.impl.EmployeeRepositoryImpl1"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+    <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+</qualifiedTypeNameHistroy>

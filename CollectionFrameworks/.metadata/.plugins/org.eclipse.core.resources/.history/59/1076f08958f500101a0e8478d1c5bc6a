@@ -1,0 +1,40 @@
+package com.scaleupindia.example1;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class Demo {
+	public static void main(String[] args) {
+		System.out.println("Create a map");
+		Map<Integer,String> map = new HashMap<>();
+		
+		System.out.println("Find size of a map");
+		System.out.println("Size of map is: " + map.size());
+		
+		System.out.println("Display Map");
+		System.out.println("Contents of map are: " + map);
+		
+		System.out.println("Add key value to map");
+		map.put(10, "Java");
+		map.put(2, "Python");
+		map.put(45, "C");
+		
+		System.out.println("Size of map is: " + map.size());
+		System.out.println("Contents of map are: " + map);
+		
+		System.out.println("Fetch value by key from map");
+		System.out.println("Element at key 2 is: " + map.get(2));
+	
+		System.out.println("Modify value by key from map");
+		map.put(2, "SQL");
+		System.out.println("Size of map is: " + map.size());
+		System.out.println("Contents of map are: " + map);
+		
+		System.out.println("Remove value by key from map");
+		map.remove(2);
+		System.out.println("Size of map is: " + map.size());
+		System.out.println("Contents of map are: " + map);
+		
+	}
+
+}

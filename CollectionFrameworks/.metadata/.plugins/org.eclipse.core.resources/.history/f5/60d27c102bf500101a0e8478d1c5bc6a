@@ -1,0 +1,28 @@
+package com.scaleupindia.example1;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class Demo {
+	public static void main(String[] args) {
+		System.out.println("Create a Set");
+		Set<String> set = new HashSet<>();
+		
+		System.out.println("Find the size of set");
+		System.out.println("Size of set is: "+ set.size());
+		
+		System.out.println("Display set");
+		System.out.println("Contents of set are: " + set);
+		
+		System.out.println("Add element to set");
+		set.add("Java");
+		set.add("Python");
+		set.add("C");
+		System.out.println("Size of the set is: "+set.size());
+		System.out.println("Contents of set are: " + set);
+		
+		
+		
+	}
+
+}

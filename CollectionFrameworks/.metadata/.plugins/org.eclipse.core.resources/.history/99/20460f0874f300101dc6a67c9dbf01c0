@@ -1,0 +1,26 @@
+package com.scaleupindia.example1;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Demo {
+	public static void main(String[] args) {
+		System.out.println("Create a list");
+		List<String> list = new ArrayList<>();
+		
+		System.out.println("Find the size of List");
+		System.out.println("Size of the list is:" + list.size());
+		
+		
+		System.out.println("Display list");
+		System.out.println("Contents of the list are:" + list);
+		
+		System.out.println("Add element to list (always added at tail");
+		list.add("Java");
+		list.add("Python");
+		list.add("C");
+		System.out.println("Size of the list is: "+list.size());
+		System.out.println("Contents of the list are:" + list);
+		
+	}
+}

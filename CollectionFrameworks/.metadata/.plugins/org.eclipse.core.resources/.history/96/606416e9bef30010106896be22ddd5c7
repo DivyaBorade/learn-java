@@ -1,0 +1,17 @@
+package com.scaleupindia.example5;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class Demo {
+	public static void main(String[] args) {
+		String[] array = {"Java","Python","C"};
+		List<String> list = Arrays.asList(array);
+		
+		System.out.println("This list is baked by array");
+		System.out.println("Contents of list are: "+list);
+		for (String element : array) {
+			System.out.println("Value of element is: "+ element );
+		}
+	}
+}

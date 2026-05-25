@@ -1,0 +1,34 @@
+package com.scaleupindia.repository.impl;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import com.scaleupindia.entity.Employee;
+import com.scaleupindia.repository.EmployeeRepository;
+
+public class EmployeeRepositoryImpl3 implements EmployeeRepository{
+
+	private static List<Employee> employeeList = new ArrayList<>();
+	
+	static {
+		employeeList.add(new Employee(201, "Kapil"));
+		employeeList.add(new Employee(202, "Manish"));
+		employeeList.add(new Employee(203, "Vikram"));
+		employeeList.add(new Employee(204, "Ajita"));
+		employeeList.add(new Employee(205, "Deepa"));
+	}
+	@Override
+	public void displayEmployees() {
+		// TODO Auto-generated method stub
+		for (Employee employee : employeeList) {
+			System.out.println(employee);
+		}
+	}
+	
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return "EmployeeRepositoryImpl2";
+	}
+
+}

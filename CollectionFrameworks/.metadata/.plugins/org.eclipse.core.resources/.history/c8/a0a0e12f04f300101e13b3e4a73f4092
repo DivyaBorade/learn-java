@@ -1,0 +1,18 @@
+package com.scaleupindia;
+
+public class Demo0 {
+
+	public static void main(String[] args) {
+		System.out.println("Create an array");
+		String[] array = new String[5];
+		
+		System.out.println("Find the size of array");
+		System.out.println("Size of the array is: "+array.length);
+		
+		System.out.println("Display array");
+		System.out.println("Contents of array are: "+array);
+		
+		
+	}
+
+}

@@ -1,0 +1,30 @@
+package com.scaleupindia;
+
+public class Demo0 {
+
+	public static void main(String[] args) {
+		System.out.println("Create an array");
+		String[] array = new String[5];
+		
+		System.out.println("Find the size of array");
+		System.out.println("Size of the array is: "+array.length);
+		
+		System.out.println("Display array");
+		System.out.println("Contents of array are: "+array);
+		for(String element : array) {
+			System.out.println("Value of element is "+ element);
+		}
+		
+		System.out.println("Add element at given index of array");
+		array[0] = "Java";
+		array[1] = "Python";
+		array[2] = "C";
+		
+		System.out.println("Each element by index from array");
+		System.out.println("Element at index 2 is: " + array[2]);
+		
+		System.out.println("Modify element by index from array");
+		array[1] = "Go";
+	}
+
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Objects"/>
+    <fullyQualifiedTypeName name="com.scaleupindia.entity.Book"/>
+    <fullyQualifiedTypeName name="com.scaleupindia.entity.Laptop"/>
+    <fullyQualifiedTypeName name="com.scaleupindia.record.LaptopRecord"/>
+    <fullyQualifiedTypeName name="com.scaleupindia.record.CommonRecord"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+</qualifiedTypeNameHistroy>

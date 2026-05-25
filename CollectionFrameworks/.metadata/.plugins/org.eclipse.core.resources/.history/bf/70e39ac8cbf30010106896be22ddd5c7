@@ -1,0 +1,15 @@
+package com.scaleupindia.example6;
+
+import java.util.List;
+
+public class Demo {
+	public static void main(String[] args) {
+		List<String> list = List.of("Java","Python","C");
+		
+		System.out.println("This list is an unmodifiable list");
+		System.out.println("Contents of list are: "+list);
+		
+		
+	}
+
+}

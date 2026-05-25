@@ -1,0 +1,41 @@
+package com.scaleupindia;
+
+import com.scaleupindia.entity.Book;
+import com.scaleupindia.entity.Laptop;
+import com.scaleupindia.record.CommonRecord;
+
+public class Demo {
+	public static void main(String[] args) {
+		
+		Book[] books = {new Book(1, "Java Basics"),new Book(2, "Java Advance"), new Book(3, "Spring Basics") };
+		Laptop[] laptops = {new Laptop(100,"HP"), new Laptop(200,"Dell") , new Laptop(300,"Apple")};
+		
+		Book bookToFind = new Book(2);
+		Laptop laptopToFind = new Laptop(300);
+		
+		Book output = findBook(books, bookToFind);
+		System.out.println(output);
+		
+		Laptop output2 = findLaptop(laptops, laptopToFind);
+		System.out.println(output2);
+	}
+	
+	public static Book findBook(Book[] repository, Book itemToFind) {
+		for(Book item : repository) {
+			if (item.equals(itemToFind)) {
+				return item;
+			}
+		}
+		return null;
+	}
+	
+	public static Laptop findBook(Laptop[] repository, Laptop itemToFind) {
+		for(Laptop item : repository) {
+			if (item.equals(itemToFind)) {
+				return item;
+			}
+		}
+		return null;
+	}
+
+}

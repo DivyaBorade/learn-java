@@ -1,0 +1,14 @@
+package com.scaleupindia.example7;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Demo {
+	public static void main(String[] args) {
+		List<Employee> list = new ArrayList<>();
+		list.add(new Employee(20,"Harry"));
+		list.add(new Employee(10,"Tom"));
+		list.add(new Employee(50,"Dora"));
+		
+	}
+}

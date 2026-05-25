@@ -1,0 +1,17 @@
+package com.scaleupindia.example4;
+
+import java.util.Set;
+
+public class Demo {
+	public static void main(String[] args) {
+		Set<String> hashset = new HashSet<>();
+		hashset.add("Java");
+		hashset.add("is");
+		hashset.add("good");
+		hashset.add("you");
+		hashset.add("should");
+		hashset.add("learn");
+		hashset.add("this");
+	}
+
+}

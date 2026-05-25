@@ -1,0 +1,21 @@
+package com.scaleupindia.example2;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Demo {
+	public static void main(String[] args) {
+		List<String> list = new ArrayList<>();
+		list.add("Java");
+		list.add("Python");
+		list.add("C");
+		
+		System.out.println("---using index---");
+		for (int i=0;i<list.size();i++) {
+			System.out.println("Value of element at index " + i + " is: " + list.get(i));
+		}
+		
+		
+	}
+
+}

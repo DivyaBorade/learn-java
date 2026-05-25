@@ -1,0 +1,59 @@
+package com.scaleupindia;
+
+import com.scaleupindia.entity.Book;
+import com.scaleupindia.entity.Laptop;
+import com.scaleupindia.record.CommonRecord;
+
+public class Demo {
+	public static void main(String[] args) {
+		
+		Book[] books = {new Book(1, "Java Basics"),new Book(2, "Java Advance"), new Book(3, "Spring Basics") };
+		Laptop[] laptops = {new Laptop(100,"HP"), new Laptop(200,"Dell") , new Laptop(300,"Apple")};
+		
+		Book bookToFind = new Book(2);
+		Laptop laptopToFind = new Laptop(300);
+		
+		Book output = findBook(books, bookToFind);
+		System.out.println(output);
+		
+		Laptop output2 = findLaptop(laptops, laptopToFind);
+		System.out.println(output2);
+		
+		Book output3 = (Book) findObject(books,bookToFind);
+		System.out.println(output3);
+		
+		Laptop output4 = (Laptop) findObject(laptops, laptopToFind);
+		System.out.println(output4);
+		
+		Laptop output5 = (Laptop) findObject(laptops, bookToFind);
+		System.out.println(output5);
+	}
+	
+	public static Book findBook(Book[] repository, Book itemToFind) {
+		for(Book item : repository) {
+			if (item.equals(itemToFind)) {
+				return item;
+			}
+		}
+		return null;
+	}
+	
+	public static Laptop findLaptop(Laptop[] repository, Laptop itemToFind) {
+		for(Laptop item : repository) {
+			if (item.equals(itemToFind)) {
+				return item;
+			}
+		}
+		return null;
+	}
+	
+	public static Object findObject(Object[] repository, Object itemToFind) {
+		for(Object item : repository) {
+			if (item.equals(itemToFind)) {
+				return item;
+			}
+		}
+		return null;
+	}
+
+}

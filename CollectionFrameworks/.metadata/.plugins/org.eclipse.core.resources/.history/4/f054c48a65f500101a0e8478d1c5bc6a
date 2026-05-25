@@ -1,0 +1,21 @@
+package com.scaleupindia.example4;
+
+import java.util.Map;
+
+public class Demo {
+	public static void main(String[] args) {
+		Map<Integer,String> map = Map.of(30,"Java",80,"Python",18,"C");
+		System.out.println("This is an unmodifiable set");
+		System.out.println("Contents of set are: "+map);
+		
+		System.out.println("Addition of element to set is not allowed");
+		map.put(12,"C#");
+		
+		System.out.println("Removal of element from set is not allowed");
+		map.remove(30);
+		
+		System.out.println("Clear set is not allowed");
+//		set.clear();
+	}
+
+}
