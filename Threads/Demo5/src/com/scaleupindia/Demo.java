@@ -1,0 +1,16 @@
+package com.scaleupindia;
+
+import com.scaleupindia.utility.MyThread;
+
+public class Demo {
+	public static void main(String[] args) {
+		Thread thread = new MyThread();
+		thread.start();
+		try {
+			Thread.sleep(1000);
+		} catch(InterruptedException e) {
+			e.printStackTrace();
+		}
+		System.out.println("Executing " + Thread.currentThread().getName());
+	}
+}
